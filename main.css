@@ -1,0 +1,168 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 3rem;
+    padding: 3rem;
+}
+
+button {
+    padding: 2rem 6rem;
+    font-size: 2rem;
+    background: #529fb6;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+button:hover {
+    background: #2a5461;
+}
+
+
+.main-section {
+    background: rgba(19, 28, 39, 1);
+    color: white;
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+}
+
+.main-logo {
+    flex: 2 1 40rem;
+    font-size: 2rem;
+    font-family: 'italy', Times, serif;
+}
+ul {
+    flex: 1 1 40rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ h1 {
+    padding-left: 2rem;
+}
+
+#home {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
+     url('/img/pexels-erik-mclean-4517073.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#contact {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+     url('/img/pexels-artem-podrez-8985510.jpg');
+    background-position: center;
+    background-size: cover;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.name-form,
+.email-form {
+    padding: 3rem;
+    text-align: center;
+}
+.div-head {
+    background-color: rgba(19, 28, 39, 0.8);
+    width: 60%;
+    border-radius: 20px;
+}
+.password-form {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+.div-head button {
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 8rem;
+    width: 100%;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.head {
+    padding: 3rem 5rem;
+    font-size: 3rem;
+}
+.name-form input,
+.email-form input {
+    padding: 1rem 3rem;
+}
+.name-form label,
+.email-form label {
+    font-size: 3rem;
+}
+.footer-wrapper {
+    display: flex;
+    background: rgba(19, 28, 39, 1);
+    min-height: 10vh;
+    align-items: center;
+}
+.footer-wrapper h5 {
+    padding-left: 2rem;
+    flex: 1 1 40rem;
+    font-size: 3rem;
+    color: white;
+}
+.footer-wrapper ul {
+    flex: 1 1 40rem;
+}
+.form-page {
+    text-decoration: underline;
+    color: blue;
+}
+.form-text {
+    margin-top: 3rem;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Media Query */
+
+ @media screen and (max-width: 500px) { 
+    
+    .div-head {
+        width: 100%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+      
+} 
